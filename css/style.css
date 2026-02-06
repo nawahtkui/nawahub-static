@@ -1,0 +1,99 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GLOBAL */
+body {
+  font-family: 'Inter', 'Poppins', Arial, sans-serif;
+  background-color: #0b0b0b;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* LINKS */
+a {
+  color: #c9a24d;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* CONTAINER */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HEADER */
+header {
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.menu a {
+  margin-left: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* HERO */
+.hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content h1 {
+  font-size: 56px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  max-width: 600px;
+  color: #cccccc;
+}
+
+/* SECTIONS */
+section {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.section-text {
+  max-width: 700px;
+  color: #bbbbbb;
+}
+
+/* FOOTER */
+footer {
+  padding: 30px 0;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}
