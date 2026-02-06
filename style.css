@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+  background: #0b0b0b;
+  color: #f5f5f5;
+  line-height: 1.8;
+}
+
+.hero {
+  height: 100vh;
+  text-align: center;
+  padding-top: 20vh;
+  background: linear-gradient(135deg, #000, #1a1a1a);
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  color: gold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: gold;
+  color: black;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+section {
+  padding: 60px 15%;
+}
+
+h2 {
+  color: gold;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+  font-size: 0.9rem;
+}
