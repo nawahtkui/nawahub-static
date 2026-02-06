@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Contact - Nawah Hub</title>
-    <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Nawah Hub</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
 <header>
-    <nav>
-        <div class="logo"><a href="index.html">Nawah Hub</a></div>
-        <div class="menu">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="vision.html">Vision</a>
-            <a href="index.html#join" class="btn">Join Us</a>
-        </div>
-    </nav>
-</header>
-
-<section>
-    <h1>Contact Us</h1>
-    <p>Interested in joining or collaborating with Nawah Hub? Reach out to us!</p>
+  <div class="logo">Nawah Hub</div>
+  <nav>
     <ul>
-        <li>Email: contact@nawahub.com</li>
-        <li>Phone: +967-XXX-XXXX</li>
-        <li>Address: Sana'a, Yemen</li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="vision.html">Vision</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="join.html">Join Us</a></li>
     </ul>
-</section>
-
+  </nav>
+</header>
+<main>
+  <h1>Contact Us</h1>
+  <form action="mailto:info@nawahhub.com" method="post" enctype="text/plain">
+    <label>Name:</label><br>
+    <input type="text" name="name" required><br>
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br>
+    <label>Message:</label><br>
+    <textarea name="message" required></textarea><br>
+    <button type="submit">Send</button>
+  </form>
+</main>
 <footer>
-    <p>&copy; 2026 Nawah Hub. All rights reserved.</p>
+  <p>&copy; 2026 Nawah Hub. All rights reserved.</p>
 </footer>
-
 </body>
 </html>
