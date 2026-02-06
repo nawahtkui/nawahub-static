@@ -47,3 +47,48 @@ footer {
   background: #000;
   font-size: 0.9rem;
 }
+
+.promo {
+  background: #111;
+  text-align: center;
+}
+
+.tagline {
+  font-size: 1.4rem;
+  margin-bottom: 40px;
+  color: #ddd;
+}
+
+.promo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.promo-grid div {
+  background: #1a1a1a;
+  padding: 25px;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.promo-grid div:hover {
+  transform: translateY(-6px);
+}
+
+.cta {
+  background: linear-gradient(135deg, #000, #222);
+  text-align: center;
+  padding: 80px 15%;
+}
+
+.cta h2 {
+  font-size: 2rem;
+}
+
+.cta p {
+  margin: 20px 0 30px;
+  color: #ccc;
+}
+
