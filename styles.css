@@ -1,0 +1,177 @@
+/* ===========================================
+   Nawah Hub CSS - تصميم فاخر للشركات والرموز
+   =========================================== */
+
+/* الخطوط العامة */
+body {
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6f8;
+    color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+}
+
+/* الروابط */
+a {
+    color: #1e88e5;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+a:hover {
+    color: #1565c0;
+    text-decoration: underline;
+}
+
+/* الرؤوس */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #0d47a1, #1976d2);
+    color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.2rem;
+    color: #c5cae9;
+}
+
+/* أقسام المحتوى */
+section {
+    margin: 60px auto;
+    max-width: 1100px;
+    padding: 0 20px;
+}
+
+/* العناوين */
+h1, h2, h3 {
+    font-weight: 700;
+    color: #0d47a1;
+}
+h2 {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #1565c0;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* الفقرات */
+p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* القوائم */
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    margin-bottom: 12px;
+    padding-left: 20px;
+    position: relative;
+    font-size: 1rem;
+}
+ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #1e88e5;
+    font-size: 1.2rem;
+}
+
+/* الأزرار */
+button, .cta-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #1e88e5, #1565c0);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover, .cta-btn:hover {
+    background: linear-gradient(135deg, #1565c0, #0d47a1);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* نماذج التسجيل */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+input, select, textarea {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+input:focus, select:focus, textarea:focus {
+    border-color: #1e88e5;
+    box-shadow: 0 0 8px rgba(30,136,229,0.3);
+    outline: none;
+}
+
+/* رسائل النجاح والخطأ */
+.message {
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.success { background-color: #c8e6c9; color: #2e7d32; }
+.error { background-color: #ffcdd2; color: #c62828; }
+
+/* Footer */
+footer {
+    background: #0d47a1;
+    color: #ffffff;
+    padding: 50px 20px;
+}
+footer h3 {
+    margin-bottom: 25px;
+    color: #c5cae9;
+}
+footer p {
+    margin-top: 30px;
+    color: #b0bec5;
+    font-size: 0.9rem;
+}
+
+/* شعار الجهات الداعمة */
+.logo-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+.logo-carousel img {
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+.logo-carousel img:hover {
+    transform: scale(1.2);
+}
+
+/* استجابة الهواتف */
+@media (max-width: 768px) {
+    header h1 { font-size: 2.2rem; }
+    section { padding: 0 15px; }
+    .cta-btn, button { width: 100%; text-align: center; }
+}
