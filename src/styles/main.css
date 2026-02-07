@@ -1,71 +1,11 @@
-body {
-  font-family: 'Tajawal', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
-}
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem 3rem;
-  background-color: #0d3b66;
-  color: #fff;
-}
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 2rem;
-}
-.nav-links li a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 500;
-}
-.hero-section {
-  text-align: center;
-  padding: 6rem 2rem;
-  background: url('../../public/images/hero.jpg') center/cover no-repeat;
-  color: #fff;
-}
-.projects-grid, .nfts-grid, .partners-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  padding: 2rem;
-}
-.project-card, .nft-card {
-  background: #fff;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-  text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.project-card:hover, .nft-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
-}
-.btn {
-  display: inline-block;
-  padding: 0.8rem 2rem;
-  margin-top: 1rem;
-  background-color: #f95738;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
-}
-footer {
-  text-align: center;
-  padding: 2rem;
-  background-color: #0d3b66;
-  color: #fff;
-}
-form input, form textarea {
-  width: 100%;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-}
+body { font-family: 'Tajawal', sans-serif; margin:0; padding:0; background-color:#f9f9f9; color:#333;}
+.navbar { display:flex; justify-content:space-between; padding:1rem 3rem; background-color:#0d3b66; color:#fff;}
+.nav-links { list-style:none; display:flex; gap:2rem;}
+.nav-links li a { color:#fff; text-decoration:none; font-weight:500;}
+.hero-section { text-align:center; padding:6rem 2rem; background:url('../../public/images/hero.jpg') center/cover no-repeat; color:#fff;}
+.projects-grid, .nfts-grid, .partners-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:2rem; padding:2rem;}
+.project-card, .nft-card { background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,0.1); text-align:center; transition: transform 0.3s ease, box-shadow 0.3s ease;}
+.project-card:hover, .nft-card:hover { transform:translateY(-10px); box-shadow:0 8px 30px rgba(0,0,0,0.15);}
+.btn { display:inline-block; padding:0.8rem 2rem; margin-top:1rem; background-color:#f95738; color:#fff; text-decoration:none; border-radius:8px; font-weight:bold;}
+footer { text-align:center; padding:2rem; background-color:#0d3b66; color:#fff;}
+form input, form textarea { width:100%; padding:1rem; margin-bottom:1rem; border-radius:8px; border:1px solid #ccc;}
