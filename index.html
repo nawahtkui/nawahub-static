@@ -3,75 +3,115 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nawah Hub - الصفحة الرئيسية</title>
-<link rel="stylesheet" href="styles.css">
+<title>Nawah Hub</title>
+<meta name="description" content="انضم إلى عالم الابتكار والمشاريع الرقمية المصممة للمرأة والشباب.">
+<meta property="og:title" content="Nawah Hub">
+<meta property="og:description" content="منصة لعرض المشاريع، NFT، والعملات الرقمية.">
+<meta property="og:image" content="./public/images/hero.jpg">
+<link rel="icon" href="./public/favicon.ico">
+<link rel="stylesheet" href="./src/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
 </head>
 <body>
 
-<header>
-  <div class="container">
-    <h1>Nawah Hub</h1>
-    <p>انضم إلى عالم الابتكار، المشاريع، والتجارب المصممة للمرأة والشباب</p>
-    <a href="join/index.html" class="cta-btn">انضم الآن</a>
-  </div>
-</header>
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="logo">Nawah Hub</div>
+  <ul class="nav-links">
+    <li><a href="#hero">الرئيسية</a></li>
+    <li><a href="#projects">المشاريع</a></li>
+    <li><a href="#nfts">NFTs</a></li>
+    <li><a href="#updates">أخبار</a></li>
+    <li><a href="#contact">تواصل</a></li>
+  </ul>
+</nav>
 
-<section class="intro">
-  <div class="container">
-    <h2>مشاريعنا</h2>
-    <p>تجارب نسائية، مشاريع مطورين، NFT تعريفية، محتوى تعليمي وألغاز يومية.</p>
-  </div>
+<!-- Hero Section -->
+<section id="hero" class="hero-section" data-aos="fade-up">
+  <h1>مرحبًا بك في Nawah Hub</h1>
+  <p>منصة لعرض المشاريع الرقمية، NFTs، وتمكين المرأة والشباب.</p>
+  <a href="#projects" class="btn">استكشف المشاريع</a>
 </section>
 
-<section class="news">
-  <div class="container">
-    <h2>أخبار وتحديثات</h2>
-    <p>تابع آخر الأخبار والمشاريع الناجحة عبر منصة Nawah Hub.</p>
-  </div>
-</section>
-
-<section class="platforms">
-  <div class="container">
-    <h2>منصات مستخدمة عالميًا</h2>
-    <div class="logo-row">
-      <a href="https://www.binance.com" target="_blank"><img src="assets/logos/binance.png" alt="Binance"></a>
-      <a href="https://www.coinbase.com" target="_blank"><img src="assets/logos/coinbase.png" alt="Coinbase"></a>
-      <a href="https://www.kraken.com" target="_blank"><img src="assets/logos/kraken.png" alt="Kraken"></a>
+<!-- Projects Section -->
+<section id="projects" class="projects-section" data-aos="fade-up">
+  <h2>المشاريع الحالية</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <img src="./public/images/project1.jpg" alt="Project 1">
+      <h3>مشروع التجربة الأولى</h3>
+      <p>وصف مختصر للمشروع وأهدافه.</p>
+    </div>
+    <div class="project-card">
+      <img src="./public/images/project2.jpg" alt="Project 2">
+      <h3>مشروع التجربة الثانية</h3>
+      <p>وصف مختصر للمشروع وأهدافه.</p>
+    </div>
+    <div class="project-card">
+      <img src="./public/images/project3.jpg" alt="Project 3">
+      <h3>مشروع التجربة الثالثة</h3>
+      <p>وصف مختصر للمشروع وأهدافه.</p>
     </div>
   </div>
 </section>
 
-<section class="nfts">
-  <div class="container">
-    <h2>ثقافة الرموز و NFTs</h2>
-    <p>نُعيد تعريف الرموز غير القابلة للاستبدال كجسر بين التاريخ والحضارة والتقنية الحديثة.</p>
-    <a href="nfts.html" class="btn">اكتشف عالم NFTs</a>
+<!-- NFT Gallery -->
+<section id="nfts" class="nfts-section" data-aos="fade-up">
+  <h2>معرض NFTs</h2>
+  <div class="nfts-grid">
+    <div class="nft-card">
+      <img src="./public/images/nft1.jpg" alt="NFT 1">
+      <h3>NFT حكمة 1</h3>
+    </div>
+    <div class="nft-card">
+      <img src="./public/images/nft2.jpg" alt="NFT 2">
+      <h3>NFT حكمة 2</h3>
+    </div>
+    <div class="nft-card">
+      <img src="./public/images/nft3.jpg" alt="NFT 3">
+      <h3>NFT حكمة 3</h3>
+    </div>
   </div>
 </section>
 
-<section class="altcoins">
-  <div class="container">
-    <h2>عملات بديلة ورموز</h2>
-    <p>استكشف العملات الرقمية البديلة، الرموز الرقمية، واستخداماتها الثقافية والحضارية.</p>
-    <a href="altcoins.html" class="btn">تعرف على المزيد</a>
+<!-- Updates Section -->
+<section id="updates" class="updates-section" data-aos="fade-up">
+  <h2>آخر الأخبار</h2>
+  <ul class="updates-list">
+    <li>خبر جديد 1: تفاصيل سريعة حول المشروع.</li>
+    <li>خبر جديد 2: تحديثات مهمة للمستخدمين.</li>
+    <li>خبر جديد 3: فعاليات جديدة للمجتمع.</li>
+  </ul>
+</section>
+
+<!-- Partners Section -->
+<section id="partners" class="partners-section" data-aos="fade-up">
+  <h2>داعمونا</h2>
+  <div class="partners-grid">
+    <img src="./public/images/partner1.png" alt="Partner 1">
+    <img src="./public/images/partner2.png" alt="Partner 2">
   </div>
 </section>
 
+<!-- Contact Section -->
+<section id="contact" class="contact-section" data-aos="fade-up">
+  <h2>تواصل معنا</h2>
+  <form action="https://formspree.io/f/mayvlvqn" method="POST">
+    <input type="text" name="name" placeholder="الاسم" required>
+    <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+    <textarea name="message" placeholder="رسالتك" required></textarea>
+    <button type="submit" class="btn">أرسل</button>
+  </form>
+</section>
+
+<!-- Footer -->
 <footer>
-  <div class="container">
-    <h3>الداعمين</h3>
-    <div class="logo-carousel">
-      <a href="https://www.bitcoin.com" target="_blank"><img src="assets/logos/bitcoin.png" alt="Bitcoin"></a>
-      <a href="https://www.ethereum.org" target="_blank"><img src="assets/logos/ethereum.png" alt="Ethereum"></a>
-      <a href="https://www.cardano.org" target="_blank"><img src="assets/logos/cardano.png" alt="Cardano"></a>
-      <a href="https://polygon.technology" target="_blank"><img src="assets/logos/polygon.png" alt="Polygon"></a>
-      <a href="https://www.binance.com" target="_blank"><img src="assets/logos/binance.png" alt="Binance"></a>
-      <a href="https://coinmarketcap.com" target="_blank"><img src="assets/logos/coinmarketcap.png" alt="CoinMarketCap"></a>
-      <a href="https://www.coingecko.com" target="_blank"><img src="assets/logos/coingecko.png" alt="CoinGecko"></a>
-    </div>
-    <p>© 2026 Nawah Hub - كل الحقوق محفوظة</p>
-  </div>
+  <p>© 2026 Nawah Hub. جميع الحقوق محفوظة.</p>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 1000, once: true });
+</script>
 </body>
 </html>
